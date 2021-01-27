@@ -1,0 +1,5 @@
+external/*
+!external/README.md
+
+*.swp
+.DS_Store
