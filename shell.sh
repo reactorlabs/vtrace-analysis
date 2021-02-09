@@ -16,8 +16,8 @@ fi
 
 # Get the script's directory and set $R and the PATH
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-export R=$DIR/external/R-dyntrace/bin/R
-export PATH=$DIR/external/R-dyntrace/bin:$PATH
+export R=$DIR/../R-dyntrace/bin/R
+export PATH=$DIR/../R-dyntrace/bin:$PATH
 
 # Set custom environment variables
 export VTRACE_SHELL=1
