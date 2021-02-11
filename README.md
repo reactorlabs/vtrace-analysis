@@ -27,7 +27,7 @@ git clone git@github.com:reactorlabs/vtrace.git && \
     cd vtrace && ../R-dyntrace/bin/R CMD INSTALL . && cd ..
 
 # Install R utility packages
-R-dyntrace/bin/R -e 'install.packages(c("devtools","dplyr"), repos="https://cloud.r-project.org")'
+R-dyntrace/bin/R -e 'install.packages(c("devtools","dplyr","lintr"), repos="https://cloud.r-project.org")'
 
 # Clone this repo
 git clone git@github.com:reactorlabs/vtrace-analysis.git
