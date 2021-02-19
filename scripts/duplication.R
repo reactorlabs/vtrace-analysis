@@ -1,8 +1,6 @@
-library(instrumentr)
 library(vtrace)
 
-trace_code(context = vtrace::create_tracer(),
-           code = {
+trace_code({
                library(dplyr)
 
                starwars %>% filter(species == "Droid")
