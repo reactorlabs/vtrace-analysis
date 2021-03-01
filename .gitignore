@@ -1,6 +1,5 @@
 data/*.csv
-external/*
-!external/README.md
+*.csv
 
 *.swp
 .DS_Store
